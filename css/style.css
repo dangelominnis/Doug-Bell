@@ -551,6 +551,41 @@ a {
   color: #000;
 }
 
+/* Icon Section */
+.icon {
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icon h2 {
+  font-size: 64px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.icon-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-item img {
+  width: 255px;
+  height: 330px;
+}
+
 /* Shop Section */
 .shop {
   /* padding: 8rem 0; */
